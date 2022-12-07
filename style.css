@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1160px;
+  margin-inline: auto;
+}
+
+.header.container {
+  /* position: absolute; */
+}
+
+.header {
+  height: 72px;
+  position: absolute;
+  width: 100%;
+  padding-block: 24px;
+  z-index: 1000;
+}
+
+.header > .container {
+}
+
+nav {
+}
+
+.main-title {
+  /* background-image: ; */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(img/bg-title.jpg);
+  height: 620px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.main-title-text {
+  position: absolute;
+  width: 100%;
+  margin-inline: auto;
+  bottom: 60px;
+}
+
+h1 {
+  font-family: Serif;
+  font-size: 4rem;
+  line-height: 4.375rem;
+  color: #fff;
+  font-family: "Noto Serif", serif;
+}
+
+.subtitle {
+  font-family: Serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin-top: 20px;
+  letter-spacing: 0.1em;
+  font-family: "PT Serif", serif;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 3.375rem;
+  margin-top: 60px;
+  max-width: 700px;
+  margin-bottom: 20px;
+  font-family: "Noto Serif", serif;
+}
+
+p,
+li,
+a {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 16px;
+  max-width: 700px;
+  font-family: "PT Serif", serif;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+.link-ref {
+  color: #00507d;
+  font-weight: bold;
+  background-color: #bdf7ff;
+  padding: 4px 2px;
+  word-break: break-all;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+footer.container {
+  text-align: center;
+}
+
+footer.container p {
+  max-width: 100%;
+}
+
+@media (max-width: 1280px) {
+  .container {
+    padding-inline: 40px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    line-height: 3.375rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 580px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}
